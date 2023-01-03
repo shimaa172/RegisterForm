@@ -1,0 +1,169 @@
+/* Start Global Rules */
+body {
+    background-color: #5b8ea2;
+}
+
+.container {
+    width: 40%;
+    background-color: #fAFAFA;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #fAFAFA;
+}
+
+h2 {
+    margin-top: 0;
+    padding: 10px 0px;
+}
+
+.label_color {
+    color: #2ABF9A;
+    font-weight: 600;
+}
+
+#pass-Strength,
+#ConfirmPass-Strength,
+#email-Strength,
+#FristName-Strength,
+#LastName-Strength {
+    display: none;
+    margin: 0;
+}
+
+.margin-b {
+    margin-bottom: 0;
+}
+
+.margin-t {
+    margin-top: 15px;
+}
+
+/* Header Section */
+.form_header {
+    background-color: #EFF0F2;
+    color: #6A6B6D;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+/* Form Section */
+form {
+    width: 100%;
+}
+
+.form_content {
+    width: 80%;
+    margin: auto;
+}
+
+.inline_section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.p_content {
+    width: 45%;
+}
+
+.p-email {
+    width: 98%;
+}
+
+.p-text {
+    margin-bottom: 0px;
+}
+
+.content_input {
+    width: 95%;
+}
+
+.fully_input {
+    width: 100%;
+}
+
+.content_inpu {
+    padding: 0;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.submit_btu {
+    color: white;
+    background-color: #1DB991;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Footer Section */
+.form_footer {
+    background-color: #EFF0F2;
+    color: #6A6B6D;
+    border-top: 1px solid #ccc;
+    padding: 18px 10%;
+    height: 20px;
+    margin-top: 20px;
+}
+
+/************************ Responsive *********************************/
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .p_content {
+        width: 100%;
+    }
+
+    .p-email,
+    .p-text {
+        width: 95%;
+    }
+
+    .margin-b {
+        margin-bottom: 15px;
+    }
+
+    .margin-t {
+        margin-top: 0px;
+    }
+
+    #rang {
+        width: 80%;
+    }
+}
+
+/* Extra small devices (Tablets, 601px up to 768px) */
+@media (min-width:601px) and (max-width:768px) {
+    .container {
+        width: 80%;
+    }
+
+    #rang {
+        width: 75%;
+    }
+}
+
+/* Extra small devices (iPads, 768px up to 912px) */
+@media (min-width:768px) and (max-width:912px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* Extra small devices (small labtops, 912px up to 1200px) */
+@media (min-width:912px) and (max-width:1200px) {
+    .container {
+        width: 50%;
+    }
+}
